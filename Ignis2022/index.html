@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio Ignis 2022</title>
+
+</head>
+
+<body>
+    <header>
+        <h1>Copa do Brasil 2022</h1>
+        <form>
+            <label for="timeEstado">Insira os Times e Estados separados por ";"</label><br>
+            <textarea id="pegarTimes" cols="35" rows="8" placeholder="time;estado">
+    Botafogo;Rio de Janeiro
+    Figueirense; Santa Catarina
+    São Paulo;São Paulo
+    Coritiba;Paraná
+    Atletico Mineiro;Minas Gerais
+    Gremio;Rio Grande do Sul
+    </textarea><br>
+        </form>
+        <button id="enviarTimes">Enviar times</button>
+
+        <h2 class="classificacao">Classificação:</h2>
+        <div id="classificacao"></div>
+    </header>
+    <main>
+    
+        <div id="rodadas"></div>
+
+        <script src="script.js"></script>
+    </main>
+</body>
+
+</html>
